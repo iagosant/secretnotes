@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <nav id="navbar">
+      <a class="navbar-logo"></a>
+    </nav>
+  </head>
+  <body>
+
+    <div class="navbar-cohortinfo">
+      <p>Web Developement - Miami Beach</p>
+      <h1>
+      <a href="MIB Cohort">MIB Cohort 1</a>
+      </h1>
+    </div>
+
+    <div class="menu">
+      <ul class="menu_items">
+        <li> MIB Cohort 1 Dashboard</li>
+        <li> Today Coming Soon</li>
+        <li> Wyncode Home</li>
+      </ul>
+
+    <div class="menu_2">
+      <ul class="menu_2_items">
+        <li> Back to Unit</li>
+        <li> Previous Task</li>
+        <li> Next Task</li>
+      </ul>
+
+    </div>
+    <div class="excercise_block">
+      <ul class="excercise_name">
+        <h2>Name of Excercise</h2>
+      </ul>
+
+      <p>Excercise explanation.</p>
+    </div>
+
+    <div class="excercise_image">
+      <img>
+    </div>
+
+    <div class="checkbox">
+      <p>Check here to provide feedback...</p>
+    </div>
+
+    <div class="comment_section">
+      <p>Leave a comment</p>
+      <div class="comment_box">
+    </div>
+
+    <div class="post_button">
+      <p>Post</p>
+    </div>
+
+    <div class="report-issue">
+      Report an issue
+    </div>
+
+    <footer id="footer"></footer>
+  </body>
+</html>
