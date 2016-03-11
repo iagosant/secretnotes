@@ -1,3 +1,4 @@
+<h1>Welcome</h1>
 <h1>Log in</h1>
 <%= form_tag sessions_path do %>
   <p>
@@ -12,3 +13,5 @@
     <%= submit_tag 'Log in' %>
   </p>
 <% end %>
+
+<%= link_to("Register", new_users_path) %>

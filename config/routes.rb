@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   resource :sessions
   resource :users
 
+  get 'users/:id/show', to: 'users#show'
+
+  get 'notes/:id/show', to: 'notes#show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

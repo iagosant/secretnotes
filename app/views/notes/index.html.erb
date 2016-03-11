@@ -15,7 +15,7 @@
   <tbody>
     <% @notes.each do |note| %>
       <tr>
-        <td><%= note.user %></td>
+        <td><%= note.user.username %></td>
         <td><%= note.name %></td>
         <td><%= note.body %></td>
         <td><%= link_to 'Show', note %></td>
